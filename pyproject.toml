@@ -1,0 +1,15 @@
+[project]
+name = "xerte"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "numpy==1.18.1",
+  "torch==1.4.0",
+  "scipy==1.4.1",
+  "scikit-learn==0.22.1",
+  "tqdm==4.43.0",
+  "networkx==2.1",
+  "pymongo==3.10.1",
+]

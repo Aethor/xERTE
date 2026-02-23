@@ -1,0 +1,158 @@
+version = 1
+revision = 3
+requires-python = ">=3.8"
+resolution-markers = [
+    "python_full_version >= '3.9'",
+    "python_full_version < '3.9'",
+]
+
+[[package]]
+name = "decorator"
+version = "5.2.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/43/fa/6d96a0978d19e17b68d634497769987b16c8f4cd0a7a05048bec693caa6b/decorator-5.2.1.tar.gz", hash = "sha256:65f266143752f734b0a7cc83c46f4618af75b8c5911b00ccb61d0ac9b6da0360", size = 56711, upload-time = "2025-02-24T04:41:34.073Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/4e/8c/f3147f5c4b73e7550fe5f9352eaa956ae838d5c51eb58e7a25b9f3e2643b/decorator-5.2.1-py3-none-any.whl", hash = "sha256:d316bb415a2d9e2d2b3abcc4084c6502fc09240e292cd76a76afc106a1c8e04a", size = 9190, upload-time = "2025-02-24T04:41:32.565Z" },
+]
+
+[[package]]
+name = "joblib"
+version = "1.4.2"
+source = { registry = "https://pypi.org/simple" }
+resolution-markers = [
+    "python_full_version < '3.9'",
+]
+sdist = { url = "https://files.pythonhosted.org/packages/64/33/60135848598c076ce4b231e1b1895170f45fbcaeaa2c9d5e38b04db70c35/joblib-1.4.2.tar.gz", hash = "sha256:2382c5816b2636fbd20a09e0f4e9dad4736765fdfb7dca582943b9c1366b3f0e", size = 2116621, upload-time = "2024-05-02T12:15:05.765Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/91/29/df4b9b42f2be0b623cbd5e2140cafcaa2bef0759a00b7b70104dcfe2fb51/joblib-1.4.2-py3-none-any.whl", hash = "sha256:06d478d5674cbc267e7496a410ee875abd68e4340feff4490bcb7afb88060ae6", size = 301817, upload-time = "2024-05-02T12:15:00.765Z" },
+]
+
+[[package]]
+name = "joblib"
+version = "1.5.3"
+source = { registry = "https://pypi.org/simple" }
+resolution-markers = [
+    "python_full_version >= '3.9'",
+]
+sdist = { url = "https://files.pythonhosted.org/packages/41/f2/d34e8b3a08a9cc79a50b2208a93dce981fe615b64d5a4d4abee421d898df/joblib-1.5.3.tar.gz", hash = "sha256:8561a3269e6801106863fd0d6d84bb737be9e7631e33aaed3fb9ce5953688da3", size = 331603, upload-time = "2025-12-15T08:41:46.427Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/7b/91/984aca2ec129e2757d1e4e3c81c3fcda9d0f85b74670a094cc443d9ee949/joblib-1.5.3-py3-none-any.whl", hash = "sha256:5fc3c5039fc5ca8c0276333a188bbd59d6b7ab37fe6632daa76bc7f9ec18e713", size = 309071, upload-time = "2025-12-15T08:41:44.973Z" },
+]
+
+[[package]]
+name = "networkx"
+version = "2.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "decorator" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/11/42/f951cc6838a4dff6ce57211c4d7f8444809ccbe2134179950301e5c4c83c/networkx-2.1.zip", hash = "sha256:64272ca418972b70a196cb15d9c85a5a6041f09a2f32e0d30c0255f25d458bb1", size = 1612593, upload-time = "2018-01-22T07:45:45.473Z" }
+
+[[package]]
+name = "numpy"
+version = "1.18.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/40/de/0ea5092b8bfd2e3aa6fdbb2e499a9f9adf810992884d414defc1573dca3f/numpy-1.18.1.zip", hash = "sha256:b6ff59cee96b454516e47e7721098e6ceebef435e3e21ac2d6c3b8b02628eb77", size = 5430477, upload-time = "2020-01-06T22:40:46.857Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/a7/06/6d616fb5fb423db595b1502cbd873f3f2025f2fd8509046c771a20c4302a/numpy-1.18.1-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:c98c5ffd7d41611407a1103ae11c8b634ad6a43606eca3e2a5a269e5d6e8eb07", size = 15166273, upload-time = "2020-01-06T22:08:01.224Z" },
+    { url = "https://files.pythonhosted.org/packages/49/ff/4c59381b459ca299b08eed99fc1b4caa735fb82135890e4765498704df35/numpy-1.18.1-cp38-cp38-manylinux1_i686.whl", hash = "sha256:9537eecf179f566fd1c160a2e912ca0b8e02d773af0a7a1120ad4f7507cd0d26", size = 17795688, upload-time = "2020-01-06T22:09:06.178Z" },
+    { url = "https://files.pythonhosted.org/packages/41/38/b278d96baebc6a4818cfd9c0fb6f0e62013d5b87374bcf0f14a0e9b83ed5/numpy-1.18.1-cp38-cp38-manylinux1_x86_64.whl", hash = "sha256:e840f552a509e3380b0f0ec977e8124d0dc34dc0e68289ca28f4d7c1d0d79474", size = 20607477, upload-time = "2020-01-06T22:10:19.653Z" },
+    { url = "https://files.pythonhosted.org/packages/0e/c3/be53614c4e3490778050e1df48fd463837297d5dd402dae3b500f2050eba/numpy-1.18.1-cp38-cp38-win32.whl", hash = "sha256:590355aeade1a2eaba17617c19edccb7db8d78760175256e3cf94590a1a964f3", size = 10818274, upload-time = "2020-01-06T22:11:00.473Z" },
+    { url = "https://files.pythonhosted.org/packages/95/47/ea0ae5a778aae07ede486f3dc7cd4b788dc53e11b01a17251b020f76a01d/numpy-1.18.1-cp38-cp38-win_amd64.whl", hash = "sha256:39d2c685af15d3ce682c99ce5925cc66efc824652e10990d2462dfe9b8918c6a", size = 12810201, upload-time = "2020-01-06T22:11:47.656Z" },
+]
+
+[[package]]
+name = "pymongo"
+version = "3.10.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/dc/9b/6791f7219f3573bfaa2251da4d814f4fbc49f0bbb258df1e08f7d89a7b85/pymongo-3.10.1.tar.gz", hash = "sha256:993257f6ca3cde55332af1f62af3e04ca89ce63c08b56a387cdd46136c72f2fa", size = 715892, upload-time = "2020-01-08T01:19:02.146Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/5e/25/372cc21c6ad318356fa819ca9b5bf021b747cd5a00b868c1db1e3e8fe228/pymongo-3.10.1-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:dd8055da300535eefd446b30995c0813cc4394873c9509323762a93e97c04c03", size = 351434, upload-time = "2020-01-08T01:18:32.643Z" },
+    { url = "https://files.pythonhosted.org/packages/5d/05/6c93b16e6823caffa998ff8530504507c9c72a70ac27959212e55f8dffb2/pymongo-3.10.1-cp38-cp38-manylinux1_i686.whl", hash = "sha256:6238ac1f483494011abde5286282afdfacd8926659e222ba9b74c67008d3a58c", size = 451861, upload-time = "2020-01-08T01:18:35.729Z" },
+    { url = "https://files.pythonhosted.org/packages/d6/38/4233ec79dd40551e7b5eea381ae4a925322b19e3b3252e80f3ce9fee4a5a/pymongo-3.10.1-cp38-cp38-manylinux1_x86_64.whl", hash = "sha256:53b711b33134e292ef8499835a3df10909c58df53a2a0308f598c432e9a62892", size = 464276, upload-time = "2020-01-08T01:18:38.935Z" },
+    { url = "https://files.pythonhosted.org/packages/a1/b0/c3da6fd3991ff52c833e321b01935c31dde4649f5d709ac58cdf98303df8/pymongo-3.10.1-cp38-cp38-manylinux2014_aarch64.whl", hash = "sha256:20ee0475aa2ba437b0a14806f125d696f90a8433d820fb558fdd6f052acde103", size = 479724, upload-time = "2020-01-08T01:18:42.032Z" },
+    { url = "https://files.pythonhosted.org/packages/48/a0/4bec4095449d32a35b377f0bed250e667f78866e9176b804dde1d33a2cc2/pymongo-3.10.1-cp38-cp38-manylinux2014_i686.whl", hash = "sha256:80df3caf251fe61a3f0c9614adc6e2bfcffd1cd3345280896766712fb4b4d6d7", size = 451863, upload-time = "2020-01-08T01:18:45.541Z" },
+    { url = "https://files.pythonhosted.org/packages/8b/30/dc99246f8834eff95fdbf0617e55fb7d9d127b592e2ded0a3635bd40f3c7/pymongo-3.10.1-cp38-cp38-manylinux2014_ppc64le.whl", hash = "sha256:a3b98121e68bf370dd8ea09df67e916f93ea95b52fc010902312168c4d1aff5d", size = 488508, upload-time = "2020-01-08T01:18:48.328Z" },
+    { url = "https://files.pythonhosted.org/packages/c5/ff/6be51b287998df657bf38fdcf03c1ea49adc668c1646bdb1cf5b95006183/pymongo-3.10.1-cp38-cp38-manylinux2014_s390x.whl", hash = "sha256:1396eb7151e0558b1f817e4b9d7697d5599e5c40d839a9f7270bd90af994ad82", size = 482361, upload-time = "2020-01-08T01:18:51.528Z" },
+    { url = "https://files.pythonhosted.org/packages/c3/0f/087858b27bb800b589c18791f735fe16b12f160c41616dfc670aae159165/pymongo-3.10.1-cp38-cp38-manylinux2014_x86_64.whl", hash = "sha256:ae65d65fde4135ef423a2608587c9ef585a3551fc2e4e431e7c7e527047581be", size = 480068, upload-time = "2020-01-08T01:18:54.527Z" },
+    { url = "https://files.pythonhosted.org/packages/82/89/5c4307a303044b21553251a73df722984263018c8352c6478674f4a4b599/pymongo-3.10.1-cp38-cp38-win32.whl", hash = "sha256:31d11a600eea0c60de22c8bdcb58cda63c762891facdcb74248c36713240987f", size = 349414, upload-time = "2020-01-08T01:17:23.263Z" },
+    { url = "https://files.pythonhosted.org/packages/77/5e/f30374f2a997710913c7616eb087e6473ccfd8a46eacee956d7fb8c7dd27/pymongo-3.10.1-cp38-cp38-win_amd64.whl", hash = "sha256:5a2c492680c61b440272341294172fa3b3751797b1ab983533a770e4fb0a67ac", size = 355227, upload-time = "2020-01-08T01:17:25.174Z" },
+]
+
+[[package]]
+name = "scikit-learn"
+version = "0.22.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "joblib", version = "1.4.2", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.9'" },
+    { name = "joblib", version = "1.5.3", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.9'" },
+    { name = "numpy" },
+    { name = "scipy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/18/28/5a48b00599b476875415b97bdfdb3849bafb31183c1d785501dbc8a77aa2/scikit-learn-0.22.1.tar.gz", hash = "sha256:51ee25330fc244107588545c70e2f3570cfc4017cff09eed69d6e1d82a212b7d", size = 6942980, upload-time = "2020-01-02T17:42:35.215Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/5a/5b/520ed622a1896ac320c19fe8f32ae13258ec72d884e8c6c9753e2b60197e/scikit_learn-0.22.1-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:571476fbb826c87ad300a5aad0238c14a590ab7df5cb823ee19ac077bf13b5f4", size = 6995361, upload-time = "2020-01-02T17:38:14.848Z" },
+    { url = "https://files.pythonhosted.org/packages/e5/bb/abb71a35ad4a92c43dbac2f4ce6ae7d7a95897bbc51434c0128c7a1d2bd2/scikit_learn-0.22.1-cp38-cp38-manylinux1_i686.whl", hash = "sha256:2d35ece66767dd197d020940b1dab3be92ddbb1c96aaef0936d9c4369d544d69", size = 6307252, upload-time = "2020-01-02T17:39:07.502Z" },
+    { url = "https://files.pythonhosted.org/packages/db/5d/dddb8b82ee573df2ccaacb210e1df56daec33dd62aa637005dbc7b889eea/scikit_learn-0.22.1-cp38-cp38-manylinux1_x86_64.whl", hash = "sha256:bacc63185520d9eb295d79fa62c388fd7145783920a1fb113451a0b294994cad", size = 6970815, upload-time = "2020-01-02T17:40:02.421Z" },
+    { url = "https://files.pythonhosted.org/packages/59/ae/c40c0f6abd040c1f1d05c8ab24a8e5ba6db1eed3c17c62515382b183b8dc/scikit_learn-0.22.1-cp38-cp38-win32.whl", hash = "sha256:5e0b5bebfd8bd8ab89b58c44acb95ddcc9439b23c875ed597842991cafc18b62", size = 5624271, upload-time = "2020-01-02T17:40:47.483Z" },
+    { url = "https://files.pythonhosted.org/packages/c2/cb/8193dec09b7fff2f0ed37eda5bda844b1704de4780dd7664e607c50df4bb/scikit_learn-0.22.1-cp38-cp38-win_amd64.whl", hash = "sha256:12ec6b2821a0b4d1b7cbe0e5d6387e64e25e6ec8cfef058b276a14509c3a537b", size = 6384052, upload-time = "2020-01-02T17:41:39.718Z" },
+]
+
+[[package]]
+name = "scipy"
+version = "1.4.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/04/ab/e2eb3e3f90b9363040a3d885ccc5c79fe20c5b8a3caa8fe3bf47ff653260/scipy-1.4.1.tar.gz", hash = "sha256:dee1bbf3a6c8f73b6b218cb28eed8dd13347ea2f87d572ce19b289d6fd3fbc59", size = 24555206, upload-time = "2019-12-19T15:49:20.447Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/90/d2/44b70a930ad28da8f65d8c294ac88b20f561e5d650b85efea80381566db1/scipy-1.4.1-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:3092857f36b690a321a662fe5496cb816a7f4eecd875e1d36793d92d3f884073", size = 28821668, upload-time = "2019-12-19T15:47:51.346Z" },
+    { url = "https://files.pythonhosted.org/packages/af/75/a4778f5fd3214d8c5663a28456b1845e57c82e2c149f04e758ff8afc77f6/scipy-1.4.1-cp38-cp38-manylinux1_i686.whl", hash = "sha256:8a07760d5c7f3a92e440ad3aedcc98891e915ce857664282ae3c0220f3301eb6", size = 22554625, upload-time = "2019-12-19T15:48:00.454Z" },
+    { url = "https://files.pythonhosted.org/packages/f3/08/8bdcdcd149ea41b655956feb7c19ebf7e1f561738bd5570b6ae015daf411/scipy-1.4.1-cp38-cp38-manylinux1_x86_64.whl", hash = "sha256:1e3190466d669d658233e8a583b854f6386dd62d655539b77b3fa25bfb2abb70", size = 26006455, upload-time = "2019-12-19T15:48:07.802Z" },
+    { url = "https://files.pythonhosted.org/packages/db/9e/465a416eb04114e3722b17b0f4fa5235bab8a76961de51db0e5850183fb1/scipy-1.4.1-cp38-cp38-win32.whl", hash = "sha256:cc971a82ea1170e677443108703a2ec9ff0f70752258d0e9f5433d00dda01f59", size = 27886413, upload-time = "2019-12-19T15:48:15.134Z" },
+    { url = "https://files.pythonhosted.org/packages/f8/b9/98a75846fdda3756ce75705b518dde4c599ba419d11415ce3fe1ebc4a885/scipy-1.4.1-cp38-cp38-win_amd64.whl", hash = "sha256:2cce3f9847a1a51019e8c5b47620da93950e58ebc611f13e0d11f4980ca5fecb", size = 31011871, upload-time = "2019-12-19T15:48:23.18Z" },
+]
+
+[[package]]
+name = "torch"
+version = "1.4.0"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/bc/47/5b7c4f832b600779eed76cac86efbd5054f124bc919930aced51de2ccbb1/torch-1.4.0-cp38-cp38-manylinux1_x86_64.whl", hash = "sha256:504915c6bc6051ba6a4c2a43c446463dff04411e352f1e26fe13debeae431778", size = 753427061, upload-time = "2020-01-15T23:29:57.574Z" },
+    { url = "https://files.pythonhosted.org/packages/53/e1/f2ba65890bb3ed98eda66ec9195e97b9b1b5824117ff4c8ad3b3f298e464/torch-1.4.0-cp38-none-macosx_10_9_x86_64.whl", hash = "sha256:d7b34a78f021935ad727a3bede56a8a8d4fda0b0272314a04c5f6890bbe7bb29", size = 81161751, upload-time = "2020-01-28T23:17:17.742Z" },
+]
+
+[[package]]
+name = "tqdm"
+version = "4.43.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/7a/cf/625e53bb8c6ad88302192c7aa50d45cdfb2b0fe97892869ec3dd9309f67f/tqdm-4.43.0.tar.gz", hash = "sha256:f35fb121bafa030bd94e74fcfd44f3c2830039a2ddef7fc87ef1c2d205237b24", size = 135045, upload-time = "2020-02-19T14:57:36.207Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/47/55/fd9170ba08a1a64a18a7f8a18f088037316f2a41be04d2fe6ece5a653e8f/tqdm-4.43.0-py2.py3-none-any.whl", hash = "sha256:0d8b5afb66e23d80433102e9bd8b5c8b65d34c2a2255b2de58d97bd2ea8170fd", size = 59119, upload-time = "2020-02-19T14:57:33.007Z" },
+]
+
+[[package]]
+name = "xerte"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "networkx" },
+    { name = "numpy" },
+    { name = "pymongo" },
+    { name = "scikit-learn" },
+    { name = "scipy" },
+    { name = "torch" },
+    { name = "tqdm" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "networkx", specifier = "==2.1" },
+    { name = "numpy", specifier = "==1.18.1" },
+    { name = "pymongo", specifier = "==3.10.1" },
+    { name = "scikit-learn", specifier = "==0.22.1" },
+    { name = "scipy", specifier = "==1.4.1" },
+    { name = "torch", specifier = "==1.4.0" },
+    { name = "tqdm", specifier = "==4.43.0" },
+]
