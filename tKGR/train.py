@@ -163,6 +163,7 @@ if __name__ == "__main__":
     root_dir = os.getcwd()
 
     log_dir = os.path.join(root_dir, 'logs', '_validresultsxerte_' + args.dataset + '.log')
+    os.makedirs(os.path.dirname(log_dir), exist_ok=True)
     logging.basicConfig(filename=log_dir, filemode='a',
                         format='%(asctime)s - %(message)s',
                         datefmt='%d-%b-%y %H:%M:%S',
