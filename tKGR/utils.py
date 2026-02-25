@@ -6,6 +6,7 @@ from collections import defaultdict
 import numpy as np
 import networkx as nx
 import torch
+from tqdm import tqdm
 from model import xERTE
 
 PackageDir = os.path.dirname(__file__)
@@ -263,7 +264,7 @@ class NeighborFinder:
         off_set_t_l = []
 
         if isinstance(adj, list):
-            for i in range(len(adj)):
+            for i in tqdm(range(len(adj))):
                 assert len(adj) == num_entities
                 curr = adj[i]
                 curr = sorted(curr, key=lambda x: (int(x[2]), int(x[0]), int(x[1])))
@@ -275,7 +276,7 @@ class NeighborFinder:
                 off_set_l.append(len(n_idx_l))
                 off_set_t_l.append([np.searchsorted(curr_ts, cut_time, 'left') for cut_time in range(0, max_time+1, self.time_granularity)])# max_time+1 so we have max_time
         elif isinstance(adj, dict):
-            for i in range(num_entities):
+            for i in tqdm(range(num_entities)):
                 curr = adj.get(i, [])
                 curr = sorted(curr, key=lambda x: (int(x[2]), int(x[0]), int(x[1])))
                 n_idx_l.extend([x[0] for x in curr])
