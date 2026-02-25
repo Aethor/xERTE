@@ -265,7 +265,7 @@ if __name__ == "__main__":
 
         running_loss = 0.
 
-        for batch_ndx, sample in tqdm(enumerate(train_data_loader)):
+        for batch_ndx, sample in tqdm(enumerate(train_data_loader), total=len(train_data_loader)):
             optimizer.zero_grad()
             model.zero_grad()
             model.train()
